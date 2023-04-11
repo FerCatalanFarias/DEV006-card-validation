@@ -1,0 +1,210 @@
+body{ 
+    background-color:rgb(0, 203, 136);
+    background-image: url(img/fondo.png);
+    background-size:cover;
+
+}
+
+header{
+    font-family: 'Istok Web', bold;
+    text-align: center;
+    margin-top: 100px;
+    
+}
+
+h1{
+    font-family: 'Istok Web', bold;
+    color: white;
+    font-size: 350%;
+    text-align: center;
+    margin-top: 100px;
+    
+}
+
+h2{
+
+    font-family: 'Istok Web';
+    color: rgb(0, 203, 136);
+    font-size:250%;
+}
+
+h3{
+    color:rgb(246, 15, 123);
+    font-family: 'Istok Web';
+    font-size:150%;
+}
+
+h4{
+    color: black;
+    font-family: 'Montserrat';
+    font-size: 130%;
+}
+
+p{
+    font-family: 'Montserrat';
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
+
+main{
+    background-color: #ffffff;
+    border-radius: 20px;
+    margin-top: -100px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    padding-top: 100px; 
+    padding-left: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+  }
+
+
+
+button{
+    background-color: rgb(246, 15, 123);
+    color: #ffffff;
+    font-family: 'Istok Web';
+    border-radius: 60px;
+    padding: 80x 100px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    display: block;
+    border-color: rgb(246, 15, 123);
+    font-size: x-large;
+    width: 180px;
+    height: 80px;
+
+}
+
+button:hover{
+    background-color: rgb(0, 203, 136);
+    color: #ffffff;
+    font-family: 'Istok Web';
+    border-radius: 60px;
+    padding: 80x 100px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    display: block;
+    border-color: rgb(0, 203, 136);
+    font-size:x-large;
+    width: 180px;
+    height: 80px;
+
+}
+
+
+.gracias{
+    color:rgb(246, 15, 123);
+    font-size: large;
+}
+
+.tarjeta{
+    width: 500px;
+    position: center;
+    padding: 0px 421px;
+    margin: 10px;
+}
+
+.logoalegria{
+    width: 200px;
+    padding: 0px 600px;
+    text-align: center;
+    margin-top: -10px;
+
+}
+
+.nombre{
+    padding: 5px;
+    width: 800px;
+    padding-top: 5px;
+    font-family: 'Montserrat';
+}
+
+.numerotarjeta{
+    padding: 5px;
+    width: 800px;
+    padding-top: 5px;
+    font-family: 'Montserrat';
+}
+
+
+.mail{
+    padding: 5px;
+    width: 800px;
+    font-family: 'Montserrat';
+}
+
+
+input:invalid{
+    border-color: #900;
+    background-color: #FDD;
+} 
+
+footer{
+    background-color:rgb(232, 249, 16);
+    height: 200px;
+    width: 1298px; 
+    padding: 60px;
+    text-align: center;
+    font-size: larger;
+    margin-bottom: -10px;
+    margin-right: -10px;
+    margin-left: -10px;
+}
+
+.logofinal{
+    width: 850px;
+}
+
+input, select{
+    padding: 5px;
+    width: 800px;
+    padding-top: 5px;
+    font-family: 'Montserrat';
+    
+}
+
+.fechavenc, select{
+    padding: 5px;
+    width: 100px;
+    font-family: 'Montserrat';
+}
+
+.cvv, select{
+    padding: 5px;
+    width: 100px;
+    font-family: 'Montserrat';
+    color: #900;
+}
+
+.imagencvv{
+    width: 180px;
+   margin-right: 10px;
+    overflow: clip;
+    float: right;
+    margin-top: -50px;
+}
+
+.alert{
+    background-color: #900;
+}
+
+.imagensocio{
+    width: 1332px;
+    float: left;
+    
+}
+
+.icono{
+    width:10px;
+}
+
+

@@ -1,15 +1,155 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <h1>hola</h1>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Tarjeta de crédito válida</title> <!--Título-->
+  <link rel="stylesheet" href="index.js">
+  <link rel="stylesheet" href="style.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Carter+One&family=Gajraj+One&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Knewave&family=Luckiest+Guy&family=Mynerve&family=Pacifico&family=Rammetto+One&family=Shadows+Into+Light&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Carter+One&family=Gajraj+One&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Knewave&family=Luckiest+Guy&family=Montserrat:wght@100&family=Mynerve&family=Pacifico&family=Rammetto+One&family=Shadows+Into+Light&display=swap"
+    rel="stylesheet">
+
+
+  <img src="img/alegria.png" class="logoalegria"> <!--logotipo Alegría-->
+
+</head>
+
+<header>
+
+</header>
+
+<body>
+
+  <section id="seccionsocio"><!--imagen hazte socio-->
+    <img src="img/haztesocio.png" alt="" class="imagensocio" id="imagensocio">
+  </section>
+
+  <h1>DONA UN REGALO A NUESTROS NIÑ@S</h1>
+  <img src="img/tarjetanueva.png" class="tarjeta"> <!--imagen tarjeta de crédito-->
+
+  <main>
+    <section>
+      <h2>¡Hola!, bienvenid@s</h2>
+      <h3>Ingresa tus datos y estarás registrad@ en esta noble causa.</h3>
+      <h4>Revisa la información antes de apretar “enter”.</h4>
+
+
+
+      <form>
+        <label for="nombre">
+          <p>Tú Nombre Completo</p>
+        </label>
+        <input type="text" class="nombre" id="nombre" name="nombre" placeholder="Escríbeme tu nombre aquí">
+      </form>
+      <br>
+    </section>
+
+
+
+
+    <form>
+      <label for="numerotarjeta">
+        <p>Número de tarjeta</p>
+      </label>
+      <input type="text" id="numerotarjeta" name="numerotarjeta" maxlength="16" placeholder="**** **** **** ****"
+        pattern="[0-9]+" />
+    </form>
+
+    <br>
+
+
+    <section id="fechaven">
+      <form>
+        <label for="mes" type="date" id="fechavenc">
+          <p>Fecha de Vencimiento</p>
+        </label>
+        <select id="fechavencimiento" name="fechaven">
+          <option value="1">01</option>
+          <option value="2">02</option>
+          <option value="3">03</option>
+          <option value="4">04</option>
+          <option value="5">05</option>
+          <option value="6">06</option>
+          <option value="7">07</option>
+          <option value="8">08</option>
+          <option value="9">09</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+        </select>
+
+        <label for="fechaven" id="fechavencida"></label>
+        <select id="fechavenci" name="año">
+          <option value="2019">
+            <p>2019</p>
+          </option>
+          <option value="2020">
+            <p>2020</p>
+          </option>
+          <option value="2021">
+            <p>2021</p>
+          </option>
+          <option value="2022">
+            <p>2022</p>
+          </option>
+          <option value="2023">
+            <p>2023</p>
+          </option>
+        </select>
+      </form>
+    </section>
+
+    <img src="img/imagencvv.png" class="imagencvv"><!--imagen explicativa CVV-->
+    <br>
+
+    <form>
+      <label for="cvv">
+        <p>CVV</p>
+      </label>
+      <input type="text" id="cvv" name="cvv" maxlength="3" placeholder="CVV de tu tarjeta" />
+    </form>
+    <br />
+
+
+
+    <form>
+      <label for="mail">
+        <p>Email</p>
+      </label>
+      <input type="email" class="mail" id="mail" name="mail" data-card="mail" placeholder="Déjanos tu Email aquí">
+    </form>
+
+
+    <div>
+      <button class="button" id="donar" value="enviar">DONAR</button>
+
+    </div>
+
+
+
+    <br>
+    <div class="gracias">
+      <p>¡Ey, tú!, gracias por aportar a nuestra fundación, estarás ayudando a
+        nuestros niñ@s a pasar un dulce momento el día de su cumpleaños.</p>
+    </div>
+
+
+
+
+
+  </main>
+
+  <script src="index.js" type="module"></script>
+</body>
+
+<footer>
+  <p>© TODOS LOS DERECHOS RESERVADOS Fundación Alegría SPA. Melipilla, Chile.</p>
+  <img src="img/logofinal.png" class="logofinal">
+
+</footer>
+
 </html>
