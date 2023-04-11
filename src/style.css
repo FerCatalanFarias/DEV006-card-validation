@@ -1,46 +1,46 @@
-body{ 
-    background-color:rgb(0, 203, 136);
+body {
+    background-color: rgb(0, 203, 136);
     background-image: url(img/fondo.png);
-    background-size:cover;
+    background-size: cover;
 
 }
 
-header{
+header {
     font-family: 'Istok Web', bold;
     text-align: center;
     margin-top: 100px;
-    
+
 }
 
-h1{
+h1 {
     font-family: 'Istok Web', bold;
     color: white;
     font-size: 350%;
     text-align: center;
     margin-top: 100px;
-    
+
 }
 
-h2{
+h2 {
 
     font-family: 'Istok Web';
     color: rgb(0, 203, 136);
-    font-size:250%;
+    font-size: 250%;
 }
 
-h3{
-    color:rgb(246, 15, 123);
+h3 {
+    color: rgb(246, 15, 123);
     font-family: 'Istok Web';
-    font-size:150%;
+    font-size: 150%;
 }
 
-h4{
+h4 {
     color: black;
     font-family: 'Montserrat';
     font-size: 130%;
 }
 
-p{
+p {
     font-family: 'Montserrat';
     display: block;
     margin-block-start: 1em;
@@ -50,7 +50,7 @@ p{
 
 }
 
-main{
+main {
     background-color: #ffffff;
     border-radius: 20px;
     margin-top: -100px;
@@ -58,15 +58,15 @@ main{
     margin-left: auto;
     margin-right: auto;
     width: 800px;
-    padding-top: 100px; 
+    padding-top: 100px;
     padding-left: 50px;
     padding-bottom: 50px;
     padding-right: 50px;
-  }
+}
 
 
 
-button{
+button {
     background-color: rgb(246, 15, 123);
     color: #ffffff;
     font-family: 'Istok Web';
@@ -83,7 +83,7 @@ button{
 
 }
 
-button:hover{
+button:hover {
     background-color: rgb(0, 203, 136);
     color: #ffffff;
     font-family: 'Istok Web';
@@ -94,26 +94,26 @@ button:hover{
     margin-top: 30px;
     display: block;
     border-color: rgb(0, 203, 136);
-    font-size:x-large;
+    font-size: x-large;
     width: 180px;
     height: 80px;
 
 }
 
 
-.gracias{
-    color:rgb(246, 15, 123);
+.gracias {
+    color: rgb(246, 15, 123);
     font-size: large;
 }
 
-.tarjeta{
+.tarjeta {
     width: 500px;
     position: center;
     padding: 0px 421px;
     margin: 10px;
 }
 
-.logoalegria{
+.logoalegria {
     width: 200px;
     padding: 0px 600px;
     text-align: center;
@@ -121,14 +121,14 @@ button:hover{
 
 }
 
-.nombre{
+.nombre {
     padding: 5px;
     width: 800px;
     padding-top: 5px;
     font-family: 'Montserrat';
 }
 
-.numerotarjeta{
+.numerotarjeta {
     padding: 5px;
     width: 800px;
     padding-top: 5px;
@@ -136,22 +136,22 @@ button:hover{
 }
 
 
-.mail{
+.mail {
     padding: 5px;
     width: 800px;
     font-family: 'Montserrat';
 }
 
 
-input:invalid{
+input:invalid {
     border-color: #900;
     background-color: #FDD;
-} 
+}
 
-footer{
-    background-color:rgb(232, 249, 16);
+footer {
+    background-color: rgb(232, 249, 16);
     height: 200px;
-    width: 1298px; 
+    width: 1298px;
     padding: 60px;
     text-align: center;
     font-size: larger;
@@ -160,51 +160,52 @@ footer{
     margin-left: -10px;
 }
 
-.logofinal{
+.logofinal {
     width: 850px;
 }
 
-input, select{
+input,
+select {
     padding: 5px;
     width: 800px;
     padding-top: 5px;
     font-family: 'Montserrat';
-    
+
 }
 
-.fechavenc, select{
+.fechavenc,
+select {
     padding: 5px;
     width: 100px;
     font-family: 'Montserrat';
 }
 
-.cvv, select{
+.cvv,
+select {
     padding: 5px;
     width: 100px;
     font-family: 'Montserrat';
     color: #900;
 }
 
-.imagencvv{
+.imagencvv {
     width: 180px;
-   margin-right: 10px;
+    margin-right: 10px;
     overflow: clip;
     float: right;
     margin-top: -50px;
 }
 
-.alert{
+.alert {
     background-color: #900;
 }
 
-.imagensocio{
+.imagensocio {
     width: 1332px;
     float: left;
-    
+
 }
 
-.icono{
-    width:10px;
+.icono {
+    width: 10px;
 }
-
-

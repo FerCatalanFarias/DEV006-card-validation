@@ -18,19 +18,19 @@ const numeroTarjeta = document.getElementById("numerotarjeta");
 
 
 donarboton.addEventListener("click", function () {
-  const cardnumber = numeroTarjeta.value;
-  const val = validator.isValid(cardnumber);
-  const mask = validator.maskify(cardnumber);
+    const cardnumber = numeroTarjeta.value;
+    const val = validator.isValid(cardnumber);
+    const mask = validator.maskify(cardnumber);
 
 
 
-  if (val === true) {
-    alert("Su tarjeta n° " + mask + " es válida :) ¡GRACIAS POR SU APORTE ES MUY VALIOSO!");
-  }
+    if (val === true) {
+        alert("Su tarjeta n° " + mask + " es válida :) ¡GRACIAS POR SU APORTE ES MUY VALIOSO!");
+    }
 
-  else {
-    alert("Su tarjeta n° " + mask + " no es válida :( ¡Inténtelo nuevamente!");
-  }
+    else {
+        alert("Su tarjeta n° " + mask + " no es válida :( ¡Inténtelo nuevamente!");
+    }
 });
 
 
