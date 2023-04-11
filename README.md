@@ -25,8 +25,9 @@
 
 ## 3. Decisiones de Diseño
 
-* El sitio web de Fudación Alegría es una página exclusiva para la donación voluntaria, poreso se pensó en una aplicación que fuera dinámica y de fácil uso. 
+* El sitio web de Fudación Alegría es una página exclusiva para la donación voluntaria, por eso se pensó en una aplicación que fuera dinámica y de fácil uso. 
 
-* Para llegar a ese resultado se crearon prototipos de baja y alta fidelidad. Se creo una plataforma enfocada en un público joven, enérgico y con ganas de ayudar a otros; poreso elegí una paleta de colores que pasara poco desapercibida, pero que también transmitiera tranquilidad y confianza al usuario. 
+* Para llegar a ese resultado se crearon prototipos de baja y alta fidelidad. Se creo una plataforma enfocada en un público joven, enérgico y con ganas de ayudar a otros; por eso elegí una paleta de colores que pasara poco desapercibida, pero que también transmitiera tranquilidad y confianza al usuario. 
 
 * También hice una estructura simple y de fácil uso, para que el usuario tuviera una mejor experiencia.
+
