@@ -10,13 +10,6 @@ const numeroTarjeta = document.getElementById("numerotarjeta");
 //const fechaVenc = document.getElementById("fechaVenc");
 
 
-
-
-
-
-
-
-
 donarboton.addEventListener("click", function () {
     const cardnumber = numeroTarjeta.value;
     const val = validator.isValid(cardnumber);
