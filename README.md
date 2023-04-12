@@ -31,3 +31,5 @@
 
 * También hice una estructura simple y de fácil uso, para que el usuario tuviera una mejor experiencia.
 
+* Imágenes que usé en mi proyecto: https://drive.google.com/drive/folders/1u7bJn0wBaeXL0_VnTekv6IuXQZaYyl5Z?usp=share_link
+* Prototipos de baja y alta calidad: https://drive.google.com/drive/folders/1N5LmTmvX9vk-Z0yeAeOvagjssg9s5XbG?usp=share_link
